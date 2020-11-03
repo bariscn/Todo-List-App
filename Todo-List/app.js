@@ -103,5 +103,5 @@ function getTodos() {
   }else {
     todos = JSON.parse(localStorage.getItem('toodos'));
   }
-  todos.forEach(function(todo))
+  todos.forEach(function(todo));
 }
